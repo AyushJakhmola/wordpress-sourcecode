@@ -4,10 +4,10 @@ run-as: root
 
 env:
   parameter-store:
-    DB_NAME: "DB_Name"
-    DB_USER: "DB_User"
-    DB_PASSWORD: "DB_Password"
-    DB_HOST: "DB_Host"
+    DB_NAME: "/ayush/DB_Name"
+    DB_USER: "/ayush/DB_User"
+    DB_PASSWORD: "/ayush/DB_Password"
+    DB_HOST: "/ayush/DB_Host"
 
 phases:
   pre_build:
